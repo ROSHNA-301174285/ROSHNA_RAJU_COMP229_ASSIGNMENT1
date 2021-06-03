@@ -13,7 +13,7 @@ router.get('/home', function (req, res, next) {
     res.render('index', { title: 'Home', page: 'home' });
 });
 router.get('/about', function (req, res, next) {
-    res.render('index', { title: 'About', page: 'about' });
+    res.render('index', { title: 'About Me', page: 'about' });
 });
 router.get('/projects', function (req, res, next) {
     res.render('index', { title: 'Projects', page: 'projects' });
@@ -22,6 +22,6 @@ router.get('/services', function (req, res, next) {
     res.render('index', { title: 'Services', page: 'services' });
 });
 router.get('/contact', function (req, res, next) {
-    res.render('index', { title: 'Contact', page: 'contact' });
+    res.render('index', { title: 'Contact Me', page: 'contact' });
 });
 //# sourceMappingURL=index.js.map
