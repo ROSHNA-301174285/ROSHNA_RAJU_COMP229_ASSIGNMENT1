@@ -93,7 +93,6 @@ function onListening():void {
   debug('Listening on ' + bind);
 }
 
-function onClickSubmit() {
-
+function onClickProceed() {
 }
 

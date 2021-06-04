@@ -57,7 +57,12 @@
             </div>
          </div>
       </div>
-      <a class="nav-link " href="/home"></i> Submit</a>
+      <button id="button" class="btn btn-primary">Home</button>
+      <script type="text/javascript">
+         document.getElementById("button").onclick = function () {
+            location.href = "http://localhost:3000/home";
+         };
+      </script>
    </form>
    <div></div>
 

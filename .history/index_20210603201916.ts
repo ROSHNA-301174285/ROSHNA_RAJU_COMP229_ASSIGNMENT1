@@ -94,6 +94,5 @@ function onListening():void {
 }
 
 function onClickSubmit() {
-
 }
 
