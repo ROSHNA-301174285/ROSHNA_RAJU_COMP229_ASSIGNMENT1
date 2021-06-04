@@ -10,7 +10,7 @@ const router = express.Router();
 export default router;
 
 /* GET home page. */
-router.get("/", function (req, res, next) {
+router.get("", function (req, res, next) {
   res.render("index", { title: "Home", page: "home" });
 });
 /* GET home page. */
