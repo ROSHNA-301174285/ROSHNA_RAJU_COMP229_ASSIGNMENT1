@@ -51,6 +51,4 @@ function onListening() {
         : 'port ' + addr.port;
     debug_1.default('Listening on ' + bind);
 }
-function onClickSubmit() {
-}
 //# sourceMappingURL=index.js.map

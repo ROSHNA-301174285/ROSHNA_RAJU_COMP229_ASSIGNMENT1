@@ -1,0 +1,6 @@
+/* your custom css goes here */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0.5px;
+}
