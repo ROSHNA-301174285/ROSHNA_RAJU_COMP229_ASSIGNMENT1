@@ -47,4 +47,7 @@ function onListening() {
     let bind = typeof addr === "string" ? "pipe " + addr : "port " + addr.port;
     debug_1.default("Listening on " + bind);
 }
+function onClickSubmit() {
+    document.write("I am Roshna Rose Raju (301174285) enrolled in Software Engineering technology Fastrack program. I am from India.");
+}
 //# sourceMappingURL=index.js.map
